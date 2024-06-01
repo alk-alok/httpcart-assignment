@@ -4,7 +4,7 @@
 This project is a security dashboard developed by Alok Kumar for WiJungle as part of an internship assignment. The dashboard visualizes security alerts data using various graphs and charts, providing insights into different aspects of the data.
 
 ##Important Links
-- **Deployed Link:** [Click here for deployed project]([https://drive.google.com/file/d/1qDRgRgMlzDMCfO8zL4gq389nV8U_Xhrg/view](https://httpcart-assignment.vercel.app/))
+- **Deployed Link:** [Click here for deployed project](https://httpcart-assignment.vercel.app/)
 - **Resume:** [Click here for Resume](https://drive.google.com/file/d/1qDRgRgMlzDMCfO8zL4gq389nV8U_Xhrg/view)
 
 ## Features
