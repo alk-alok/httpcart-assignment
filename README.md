@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Security Dashboard - WiJungle - by httpCart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a security dashboard developed by Alok Kumar for WiJungle as part of an internship assignment. The dashboard visualizes security alerts data using various graphs and charts, providing insights into different aspects of the data.
 
-## Available Scripts
+## Features
+- **Dark Theme:** The dashboard uses a dark theme for better visibility and aesthetics.
+- **Responsive Design:** The graphs and charts are designed to be responsive, ensuring a consistent user experience across different devices and screen sizes.
+- **Multiple Graphs:** The dashboard includes four graphs, each offering unique insights into the security alerts data.
+- **Beautiful Visualizations:** The graphs are visually appealing, making it easier for users to interpret the data.
+- **Data Fetching:** The dashboard fetches data from a JSON file (`data.json`) to dynamically populate the graphs.
 
-In the project directory, you can run:
+## Graphs Included
+1. **Alerts by Source IP:** Displays the distribution of security alerts based on the source IP addresses.
+2. **Alerts by Destination Port:** Shows the distribution of security alerts based on the destination ports.
+3. **Alerts by Severity:** Visualizes the distribution of security alerts based on their severity levels using a pie chart.
+4. **Alerts Over Time:** Displays the trend of security alerts over time, showing how the number of alerts has varied over different dates.
 
-### `npm start`
+## Technologies Used
+- **React:** The project is built using React, a popular JavaScript library for building user interfaces.
+- **Plotly.js:** Used for creating interactive and beautiful graphs and charts.
+- **Axios:** Utilized for making HTTP requests to fetch data from the server.
+- **Vercel:** The project is deployed using Vercel.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+To run the project locally:
+1. Clone the repository: `git clone https://github.com/alk-alok/httpcart-assignment.git`
+2. Navigate to the project directory: `cd httpcart-assignment`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit `http://localhost:3000` to view the dashboard.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+![Screenshot](screenshot.jpg)
 
-### `npm test`
+## Author
+- **Name:** Alok Kumar
+- **Resume:** [Click here for Resume](https://drive.google.com/file/d/1qDRgRgMlzDMCfO8zL4gq389nV8U_Xhrg/view)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to modify the content as needed and add any additional sections or details that you think would be relevant!

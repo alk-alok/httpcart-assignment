@@ -12,6 +12,7 @@ const App = () => {
     <div className='App'>
       <div className="dashboard">
         <h1>Security Alerts Dashboard - WiJungle - by HttpCart</h1>
+        {/* <p>Developed by Alok Kumar</p> */}
         <div className="chart-container">
           <div style={{ flex: 1 }}>
             <AlertsBySourceIP />
